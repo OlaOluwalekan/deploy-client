@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 const Hero = () => {
   return (
     <div className='hero bg-base-200 min-h-screen'>
@@ -19,7 +21,9 @@ const Hero = () => {
             powerful, user-friendly platform. Get your projects online faster
             and more efficiently than ever before.
           </p>
-          <button className='btn btn-primary'>Get Started</button>
+          <Link to='/auth/register' className='btn btn-primary'>
+            Get Started
+          </Link>
         </div>
       </div>
     </div>

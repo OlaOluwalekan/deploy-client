@@ -12,8 +12,8 @@ const Header = () => {
   const { navIsOpen } = useSelector((store: RootState) => store.general)
 
   return (
-    <div className='w-full'>
-      <div className='flex w-10/12 m-auto justify-between items-center'>
+    <header className='w-full'>
+      <div className='flex w-10/12 m-auto justify-between items-center py-3'>
         <Logo />
         <nav>
           <DesktopNav />
@@ -29,7 +29,7 @@ const Header = () => {
           <MobileNav />
         </nav>
       </div>
-    </div>
+    </header>
   )
 }
 

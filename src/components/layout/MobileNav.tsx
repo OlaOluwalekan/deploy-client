@@ -19,7 +19,7 @@ const MobileNav = () => {
       )}
     >
       <div className='w-[300px] h-full bg-blue-900'>
-        <article className='flex justify-between items-center px-3 bg-base-100'>
+        <article className='flex justify-between items-center px-3 bg-base-100 py-3'>
           <Logo />
           <button
             className='text-2xl text-red-600'

@@ -17,11 +17,11 @@ export const navData = [
   {
     id: 4,
     title: 'Login',
-    path: '/login',
+    path: '/auth/login',
   },
   {
     id: 5,
     title: 'Register',
-    path: '/register',
+    path: '/auth/register',
   },
 ]
